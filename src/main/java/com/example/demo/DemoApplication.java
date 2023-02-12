@@ -15,7 +15,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 	}
 
 	@RequestMapping("/")
-	String sayHello() {
-		return "Hello Azure!!";
+	String renderIndex() {
+		return "index";
 	}
 }
